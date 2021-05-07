@@ -1,2 +1,8 @@
 # react-todo
-Created with CodeSandbox
+
+A simple todo list made with React.
+
+## techs
+
+*react
+*localStorage
