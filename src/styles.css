@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+#__next {
+  height: 100%;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.App {
+  margin: 50px;
+  background: #d5e400;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 20px;
+  padding: 30px;
+  align-self: center;
+  font-size: 3rem;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  padding: 10px;
+  list-style-type: none;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+li {
+  color: #fff;
+}
+
+.check {
+  margin-right: 8px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.inputTask {
+  margin: 30px;
+
+  height: 40px;
+  font-size: 1.5rem;
+  padding: 5px;
+  width: 60%;
+  color: rgb(255, 255, 255);
+  background: #b2be01;
+  border: 0.1px solid rgb(156, 156, 156);
+}
+
+.submit {
+  font-size: 2rem;
+  width: 40%;
+  margin: 10px;
+  cursor: pointer;
+  background: #b2be01;
+  border: 0.1px solid rgb(156, 156, 156);
+  color: #fff;
+}
+
+.todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #c3d100;
+  font-size: 1.5rem;
+  padding: 3rem;
+  border: 0.1px solid rgb(156, 156, 156);
+  margin-top: 20px;
+}
+.todo-input {
+  display: flex;
+}
+
+.close {
+  background: #8c9601;
+  border: 0;
+  border-radius: 50%;
+  font-size: 1rem;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+}
