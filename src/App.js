@@ -44,7 +44,7 @@ export default function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App glow">
       <h1>TO DO list</h1>
       <TodoList
         todos={todos}
