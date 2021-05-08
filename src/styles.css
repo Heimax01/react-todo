@@ -18,6 +18,7 @@ body {
 }
 
 .App {
+  position: relative;
   margin: 50px;
   background: linear-gradient(0deg, black, rgb(63, 62, 62));
   display: flex;
@@ -62,7 +63,7 @@ body {
   }
 }
 
-.Sglow::after {
+.glow::after {
   filter: blur(40px);
 }
 
