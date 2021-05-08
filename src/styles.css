@@ -23,6 +23,7 @@ body {
   background: linear-gradient(0deg, black, rgb(63, 62, 62));
   display: flex;
   flex-direction: column;
+  color: rgb(212, 212, 212);
 }
 
 .glow::before,
@@ -109,7 +110,7 @@ li {
   padding: 5px;
   width: 60%;
   color: rgb(255, 255, 255);
-  background: #b2be01;
+  background: rgb(63, 62, 62);
   border: 0.1px solid rgb(156, 156, 156);
 }
 
@@ -118,16 +119,16 @@ li {
   width: 40%;
   margin: 10px;
   cursor: pointer;
-  background: #b2be01;
+  background: rgb(63, 62, 62);
   border: 0.1px solid rgb(156, 156, 156);
-  color: #fff;
+  color: rgb(212, 212, 212);
 }
 
 .todo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: #c3d100;
+  background: rgb(63, 62, 62);
   font-size: 1.5rem;
   padding: 3rem;
   border: 0.1px solid rgb(156, 156, 156);
@@ -138,7 +139,7 @@ li {
 }
 
 .close {
-  background: #8c9601;
+  background: rgb(63, 62, 62);
   border: 0;
   border-radius: 50%;
   font-size: 1rem;
