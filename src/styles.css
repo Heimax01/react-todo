@@ -75,6 +75,12 @@ h1 {
   font-size: 3rem;
 }
 
+@media (max-width: 375px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
 .items {
   display: flex;
   justify-content: center;
@@ -114,6 +120,12 @@ li {
   border: 0.1px solid rgb(156, 156, 156);
 }
 
+@media (max-width: 426px) {
+  .inputTask {
+    margin: 10px;
+  }
+}
+
 .submit {
   font-size: 2rem;
   width: 40%;
@@ -122,6 +134,12 @@ li {
   background: rgb(63, 62, 62);
   border: 0.1px solid rgb(156, 156, 156);
   color: rgb(212, 212, 212);
+}
+
+@media (max-width: 426px) {
+  .submit {
+    font-size: 1.5rem;
+  }
 }
 
 .todo {
@@ -134,6 +152,13 @@ li {
   border: 0.1px solid rgb(156, 156, 156);
   margin-top: 20px;
 }
+
+@media (max-width: 426px) {
+  .todo {
+    padding: 1.5rem;
+  }
+}
+
 .todo-input {
   display: flex;
 }
